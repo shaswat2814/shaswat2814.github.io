@@ -1,0 +1,72 @@
+input[type=text],input[type=tel],input[type=email],input[type=Date],input[type=month],textarea,select{
+	width: 25%;
+	border: 1px solid #ccc;
+	padding: 10px 0px 10px 0px;
+  	border-radius: 4px;
+}
+
+.first{
+	width: 240px;
+	display: inline-block;
+	padding: 10px;
+}
+.des{
+	background-color:#955251;
+	color: white;
+	padding: 2px;
+}
+
+textarea{
+	resize: none;
+	grid-row: 30%;
+}
+h1{
+	/*text-align: center;*/
+	color: #FFFFFF;
+	background-color:   #45B8AC;
+	width: 36%;
+	margin: auto;
+	font-family: helvetica;
+	border: 2px solid #009B77;
+}
+#neg{
+	color: #000000;
+}
+.header{
+	text-align: center;
+	margin-bottom: 2px;
+}
+
+.header img {
+  float: left;
+  width: 120px;
+  height: 46px;
+  background: #555;
+  margin-top: -5px;
+}
+
+.header h2{
+	/*border:1px solid black;*/
+	width:27%;
+	padding:20px;
+	margin: auto;
+	box-sizing: border-box;
+	color:	#BC243C;
+}
+
+
+button {
+  background-color: #FF6F61; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+button[type="submit"]{
+	margin-right: 10px;
+	background-color: #88B04B;
+}

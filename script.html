@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vehicle Insurance Registration</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="header">
+		<h1>Vehicle Insurance Registration</h1>
+		<img src="https://www.royalsundaram.in/blog/wp-content/uploads/2017/10/Personal-accident-cover-in-car-insurance-explained.jpg">
+		<h2>Add a Vehicle</h2>
+	</div>
+	<form action="" enctype="multipart/form-data">
+		<div>
+			<fieldset>
+				<legend class="des"><strong>Owner's Details</strong></legend>
+				<label for="firstname" class="first" >First Name</label>
+				<input type="text" id="firstname" name="fname" placeholder="Your firstname.."required>
+				<p><label for="lastname" class="first" >Last Name</label>
+				<input type="text" id="lastname" name="lname" placeholder="Your lastname.."required></p>
+				<p ><span class="first">Gender</span>
+				<input type="radio" id="male" name="gender" value="male">
+				<label for="male">Male</label>
+	  			<input type="radio" id="female" name="gender" value="female">
+	  			<label for="female">Female</label></p>
+				<label for="moblie" class="first">Phone Number</label>
+				<input type="tel" name="mobile" id="mobile" pattern="[0-9]{10}" required><br><br>
+				<label for="email" class="first">Email id</label>
+				<input type="email" id="email" name="email" placeholder="youremail@domain.com" required><br><br>
+				<label for="dob" class="first">Date of Birth</label>
+				<input type="Date" id="dob" name="dob" required><br><br>
+				<label for="address" class="first" id="neg" >Communication Address</label>
+				<textarea id="address" name="address" placeholder="Your home address.."required></textarea><br>
+			</fieldset>
+		</div><br>
+		<div>
+			<fieldset>
+				<legend class="des"><strong>Vehicle Details</strong></legend>
+				<label for="vehicle" class="first">Choose a vehicle type</label>
+				<select name="vehicles" id="vehicle" required>
+					<option value="two">Two Weeler</option>
+					<option value="three">Three Wheeler</option>
+					<option value="four">Four Wheeler</option>
+				</select><br><br>
+				<label for="model" class="first" >Model/Variant</label>
+				<input type="text" id="model" name="model" placeholder="enter model name here"><br><br>
+				<label for="year" class="first">Month/Year of Manufacturing</label>
+				<input type="month" id="year" name="year"><br><br>
+				<label for="engine" class="first">Engine no</label>
+				<input type="text" id="engine" name="engine" pattern="[0-9]{2}[A-Z]{3}[0-9]{5}" placeholder="eg:18BCV56789">
+				<p><label for="fuel" class="first">Fuel Type</label>
+				<input type="text" id="fuel" name="fuel" placeholder="enter vehicle's fuel type here"></p>
+				<label for="image">Add an image of your vehicle with its valid Number plate</label><br><br>
+				<input type="file" id="image" name="image" accept="image/*">
+			</fieldset>
+		</div><br>
+		<div>
+			<fieldset>
+				<legend class="des"><strong>Other Details</strong></legend>
+				<p>Please Check the box wherever applicable</p>
+				<ol>
+					<li>
+						<input type="checkbox" id="1" name="1">
+						<label for="1">Whether the vehicle was used for commercial purpose?</label>
+					</li>
+					<li>
+						<input type="checkbox" id="2" name="2">
+						<label for="2">Whether the vehicle is used for Driving tuition?</label>
+					</li>
+					<li>
+						<input type="checkbox" id="3" name="3">
+						<label for="3">Whether the vehicle is specially designed for use of Blind/Handicapped/Mentally Challenged person?</label>
+
+					</li>
+					<li>
+						<input type="checkbox" id="4" name="4">
+						<label for="4">Whether the vehicle is certified as Vintage car by the vintage & classic car club of India?</label>
+
+					</li>
+					<li>
+						<input type="checkbox" id="5" name="5">
+						<label for="5">Whether the vehicle is limited to own premises?</label>
+					</li>
+				</ol>
+		</fieldset>
+		</div>
+		<br>
+		<button type="submit">Submit</button>
+		<button type="reset">Reset</button>
+
+	</form>
+
+</body>
+</html>
