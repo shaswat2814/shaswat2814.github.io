@@ -53,3 +53,16 @@
 	text-align: center;
 
 }
+
+.logo h2{
+	display: inline-block;
+	/*border: 1px solid black;*/
+	margin-left:370px;
+	color:#009B77;
+	font-family: Lucida Bright;
+}
+
+.logo img{
+	height: 150px;
+	margin-left: 80px;
+}
