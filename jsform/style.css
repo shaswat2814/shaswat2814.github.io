@@ -1,0 +1,55 @@
+.c1{
+  width:50%;
+  margin-top: 5px;
+  border: 1px solid dodgerblue;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+.click{
+  margin-bottom: 4px;
+}
+
+/*.mydiv2{
+	background-color: pink;
+	text-align: center;
+	font-size: 24px;
+
+}*/
+/*#invoice{
+	visibility: hidden;
+}*/
+
+.invoice_head{
+	background-color: black;
+	opacity: 0.4;
+	color: white;
+	text-align: center;
+}
+
+.invoice_no{
+	text-align: right;
+	margin-right: 5px;
+}
+
+.to_addr{
+	float: right;
+}
+
+.h1_dr{
+	background-color: grey;
+	padding: 4px;
+}
+
+.h11{
+	float:right;
+}
+
+.mydiv1{
+	padding:4px;
+}
+
+#title{
+	color:  #009B77;
+	text-align: center;
+
+}
