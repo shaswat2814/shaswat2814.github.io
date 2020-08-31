@@ -24,17 +24,17 @@ function validateForm(){
     }
     if(p_prize>=100 && p_prize<=9999);
     else{
-      alert("Specify the prize value within 100-999");
+      alert("Specify the prize value within 100-9999");
       validate = false;
     }
     if(date.match(p2));
     else{
-      alert("Specify the Correct format for the date");
+      alert("Specify the Correct format for the date(dd/mm/yyyy)");
       validate = false;
     }
 
     if(!phone.match(p3)){
-      alert("Invalid phone number");
+      alert("Invalid phone number(Specify 10 Digit)");
       validate = false;
     }
     if(!mail.match(p4)){
@@ -149,16 +149,6 @@ function product_checkout(){
 
   document.body.appendChild(div1);
 
-  // var para = document.createElement("p");
-  // para.setAttribute("id","invoice");
-  // para.innerText = "This is a paragraph.";
-  // document.body.appendChild(para);
-  // const element = document.getElementById("invoice");
-  //       // Choose the element and save the PDF for our user.
-  //       html2pdf()
-  //         .from(element)
-  //         .save();
-  // document.write("<h1>My name is shaswat</h1>");
   print_purchase();
 
 

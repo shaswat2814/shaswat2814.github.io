@@ -1,7 +1,7 @@
 .c1{
   width:50%;
-  margin-top: 5px;
-  border: 1px solid dodgerblue;
+  /*margin-top: 5px;*/
+  /*border: 1px solid dodgerblue;*/
   margin-bottom: 5px;
   border-radius: 8px;
 }
@@ -58,12 +58,19 @@
 .logo h2{
 	display: inline-block;
 	/*border: 1px solid black;*/
-	margin-left:370px;
+	margin-left:365px;
 	color:#009B77;
 	font-family: Lucida Bright;
+	font-size: 	50px;
 }
 
 .logo img{
 	height: 150px;
 	margin-left: 80px;
+}
+
+input[type="text"],input[type="number"],select{
+	border: none;
+	border-bottom: 1px dashed #83A4C5;
+
 }
