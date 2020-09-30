@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate to Save</title>
+    <link rel="stylesheet"  href="style.css">
+
+</head>
+<body>
+    <header>
+        <img src="https://s24516.pcdn.co/wp-content/uploads/2020/03/web1_blood1.jpg" alt="logo" class="logo">
+        <h3 class="nav_header">Donate To Save</h3>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <div class="main-container">
+        <p class="form-header">Register to Save</p>
+        <div class="sign-up-form"> 
+            <img src="https://www.pngkit.com/png/full/345-3454404_open-icon-png-of-blood.png" alt="img">
+            <h1>Sign Up Now</h1>
+            <form method="get" action="success.html">
+                <input type="text" name="name" placeholder="Your name" class="input-box" required>
+                <select class="input-box" required>
+                    <option value="none" selected disabled hidden>
+                        Select your City
+                    </option>
+                    <option value="Jamshedpur">Jamshedpur</option>
+                    <option value="Ranchi">Ranchi</option>
+                    <option value="Bokaro">Bokaro</option>
+                    <option value="Dhanbad">Dhanbad</option>
+                    <option value="Patna">Patna</option>
+                    <option value="Raipur">Raipur</option>
+                    <option value="Vellore">Vellore</option>
+                    <option value="Chennai">Chennai</option>
+                </select> 
+                <input type="number" name="phone" placeholder="Phone Number" class="input-box" required>
+                <select class="input-box" required>
+                    <option value="none" selected disabled hidden>
+                        Select your Blood Group
+                    </option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                </select>   
+                <div  class="input-box">  
+                    <label for="rh-factor" style="float:left;">RH-factor &nbsp; </label>
+                    <input type="radio" name="rh-factor" id="rh-factor" > postive &nbsp; 
+                    <input type="radio" name="rh-factor" id="rh-factor"> negative
+                </div>
+                <input type="text" name="address" placeholder="address" class="input-box">
+                <p><span><input type="checkbox"></span> I Agree to the terms of services</p>
+                <button type="submit" class="sign-btn">Sign Up</button>
+                <button type="reset" class="reset-btn">Reset</button>
+            </form>
+        </div>
+        </div>
+  
+</body>
+</html>
