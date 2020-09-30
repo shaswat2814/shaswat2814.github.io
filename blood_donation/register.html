@@ -24,23 +24,22 @@
         <div class="sign-up-form"> 
             <img src="https://www.pngkit.com/png/full/345-3454404_open-icon-png-of-blood.png" alt="img">
             <h1>Sign Up Now</h1>
-            <form method="get" action="success.html">
-                <input type="text" name="name" placeholder="Your name" class="input-box" required>
-                <select class="input-box" required>
+            <form method="get" action="success.html" name="myforms" onsubmit = "return validateForm()">
+                <input type="text" name="name" placeholder="Your name" class="input-box">
+                <select class="input-box" name="city" >
                     <option value="none" selected disabled hidden>
                         Select your City
                     </option>
-                    <option value="Jamshedpur">Jamshedpur</option>
-                    <option value="Ranchi">Ranchi</option>
-                    <option value="Bokaro">Bokaro</option>
-                    <option value="Dhanbad">Dhanbad</option>
-                    <option value="Patna">Patna</option>
-                    <option value="Raipur">Raipur</option>
-                    <option value="Vellore">Vellore</option>
+                    <option value="Perambur">Perambur</option>
+                    <option value="Avadi">Avadi</option>
+                    <option value="Ambattur">Ambattur</option>
+                    <option value="Velachery">Velachery</option>
+                    <option value="Adyar">Adyar</option>
+                    <option value="Tambaram">Tambaram</option>
                     <option value="Chennai">Chennai</option>
                 </select> 
-                <input type="number" name="phone" placeholder="Phone Number" class="input-box" required>
-                <select class="input-box" required>
+                <input type="number" name="phone" placeholder="Phone Number" class="input-box" >
+                <select class="input-box" name="blood_type">
                     <option value="none" selected disabled hidden>
                         Select your Blood Group
                     </option>
@@ -55,16 +54,17 @@
                 </select>   
                 <div  class="input-box">  
                     <label for="rh-factor" style="float:left;">RH-factor &nbsp; </label>
-                    <input type="radio" name="rh-factor" id="rh-factor" > postive &nbsp; 
+                    <input type="radio" name="rh-factor" id="rh-factor" checked="checked"> postive &nbsp; 
                     <input type="radio" name="rh-factor" id="rh-factor"> negative
                 </div>
                 <input type="text" name="address" placeholder="address" class="input-box">
                 <p><span><input type="checkbox"></span> I Agree to the terms of services</p>
                 <button type="submit" class="sign-btn">Sign Up</button>
                 <button type="reset" class="reset-btn">Reset</button>
+                <script src="script.js"></script>
             </form>
         </div>
-        </div>
+    </div>
   
 </body>
 </html>
